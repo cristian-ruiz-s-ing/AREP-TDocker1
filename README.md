@@ -38,14 +38,17 @@ Se tiene el servidor en la clase `SparkWebServer` y el cliente html lo retorna l
 
     A continuación se muestran imágenes de cómo responde el servidor una vez ejecutado:
    - Contenedores:
+   
         ![contenedor 1](/src/main/resources/images/contenedor1.JPG)
         ![contenedor 2](/src/main/resources/images/contenedor2.JPG)
-   - Servidor directo:
-     ![servidor](/src/main/resources/images/funciones.JPG)
+
+  - Servidor directo:
+
+    ![servidor](/src/main/resources/images/funciones.JPG)
 
 4. **Acceder a los Servicios REST Directamente:**
 
-    - Seno: [http://localhost:34000/sin/{valor}](http://localhost:34000/sin/{valor})
-    - Coseno: [http://localhost:34001/cos/{valor}](http://localhost:34001/cos/{valor})
-    - Palíndromo: [http://localhost:34002/palindromo/{cadena}](http://localhost:34002/palindromo/{cadena})
-    - Magnitud de un Vector: [http://localhost:34000/vector/{param1}/{param2}](http://localhost:34000/vector/{param1}/{param2})
+    - Seno: [http://localhost:4567/sin/{valor}](http://localhost:34000/sin/{valor})
+    - Coseno: [http://localhost:4567/cos/{valor}](http://localhost:34001/cos/{valor})
+    - Palíndromo: [http://localhost:4567/palindromo/{cadena}](http://localhost:34002/palindromo/{cadena})
+    - Magnitud de un Vector: [http://localhost:4567/vector/{param1}/{param2}](http://localhost:34000/vector/{param1}/{param2})
